@@ -1,6 +1,6 @@
 from rest_framework.decorators import api_view,permission_classes
 from rest_framework.permissions import IsAuthenticated
-from get_db_instance import database_instance
+from app.get_db_instance import database_instance
 from langchain.chains import create_sql_query_chain
 from langchain_openai import ChatOpenAI
 from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
