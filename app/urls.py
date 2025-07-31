@@ -1,5 +1,5 @@
 from django.urls import path
-from app.views import prompt_read
+from app.views import prompt_crud
 urlpatterns = [
-    path('prompt-read/',prompt_read,name='prompt-read')
+    path('prompt-crud/',prompt_crud,name='prompt-crud')
 ]
